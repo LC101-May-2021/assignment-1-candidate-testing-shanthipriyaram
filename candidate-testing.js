@@ -44,11 +44,17 @@ console.log(candidateAnswers);
 function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
-if (candidateAnswer == correctAnswer) {
+/*if (candidateAnswer == correctAnswer) {
   console.log("Your answer is right!!");
 }
 else { console.log("Your answer is incorrect!!");
-}
+}*/
+for(let i=0;i<candidateAnswers.length;i++){
+    console.log((i+1) +") "+ questions[i] )
+    console.log(`Your Answer : `+candidateAnswers[i]);
+    console.log(`Correct Answer : `+correctAnswers[i]);
+    console.log("   ");
+   } 
 
   let grade;
   
