@@ -27,11 +27,9 @@ function askQuestion() {
 //console.log("Correct Answer: " + correctAnswer);
 for (let i = 0; i < questions.length; i++) {
   candidateAnswers[i] = input.question(questions[i]);
-  if (candidateAnswers[i] === correctAnswers[i]) {
     console.log ("Your answer : ", candidateAnswers[i]);
     console.log ("Correct answer : ", correctAnswers[i]);
   }
-}
 }
 // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
 /*if (candidateAnswer == correctAnswer) {
